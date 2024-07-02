@@ -1,0 +1,136 @@
+.hero{
+    background-image:url("https://wallpapers.com/images/high/snowy-weather-in-city-tb69n17frxerk0kx.webp");
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+  /* Set a specific height */
+  height: 100vh;
+  width: 100vw;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.logo{
+    position: absolute;
+    left: 2%;
+ filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.5)); 
+}
+
+.DataLayoutRight{
+    background: radial-gradient(1002px at -0.1% 47%, rgb(53, 92, 125) 0%, rgb(108, 91, 123) 51.2%, rgb(192, 108, 132) 100.2%);
+ width: 27%;
+    height: 67vh;
+    position: absolute;
+    right: 22%;
+    border-radius: 8px 42px 42px 5px;
+    top: 13%;
+}
+
+.DataLayoutLeft{
+background: linear-gradient(112.4deg, rgb(176, 174, 225) 44.9%, rgb(135, 197, 235) 94.5%);
+    width: 30%;
+    height: 75vh;
+    position: absolute;
+    left: 22%;
+    border-radius: 8px 32px 32px 5px;
+    top: 10%;
+}
+
+.parts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.parts > p,h3{
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.changeLocationBtn{
+    height: 10%;
+    width: 70%;
+    border-radius: 8px;
+background: linear-gradient(112.4deg, rgb(176, 174, 225) 44.9%, rgb(135, 197, 235) 94.5%);
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.name{
+    font-weight: 700;
+    background: #959595;
+background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.countryAndRegion{
+    display: flex;
+    margin: 16px 16px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.DataLayoutLeft > img{
+    width: 28%;
+    height: 23%;
+    margin-top: -16px;
+}
+
+.text{
+    margin-top: -8px;
+background: #F0B7A1;
+background: linear-gradient(to right, #F0B7A1 0%, #8C3310 50%, #752201 51%, #BF6E4E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700;
+}
+
+.weekDay{
+    font-weight: 700;
+}
+
+.report{
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: -5px;
+    background: #959595;
+background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.daysBlocks{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 6px;
+  margin-top: -25px;
+}
+
+.daysCols{
+    border-radius: 16px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 0px 8px;
+  margin: 0px 6px;
+  flex-wrap: wrap;
+    background-color: hsla(180, 22%, 96%, 0.5);
+    width: 50%;
+}
+
+.icon{
+    margin: 5px 0px;
+}

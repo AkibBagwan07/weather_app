@@ -1,0 +1,70 @@
+.hero{
+    background-image:url("https://wallpapers.com/images/high/snowy-weather-in-city-tb69n17frxerk0kx.webp");
+
+  /* Set a specific height */
+  height: 100vh;
+  width: 100vw;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    position: absolute;
+    left: 2%;
+ filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.5)); 
+}
+
+.layout{
+    width: 27vw;
+     background: hsla(180, 22%, 96%, 0.5); 
+    /* Text color remains fully opaque */
+    color: #000; 
+    height: 58vh;
+    position: absolute;
+    left: 38%;
+    top: 10%;
+    border-radius: 8px;
+}
+
+.homeChart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp{
+    border: none;
+    height: 32px;
+    width: 70%;
+    margin: 15px 0px;
+ border-radius: 8px;
+}
+
+.searchBtn{
+ border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 50%;
+    font-size: 14px;
+    background-color: skyblue;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.quote{
+    margin-bottom: 8px;
+  font-size: 30px;
+}
+
+.changeWordCol{
+  color: red;
+  opacity: 0.7;
+}
