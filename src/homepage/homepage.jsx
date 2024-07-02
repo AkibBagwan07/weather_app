@@ -18,7 +18,7 @@ const HomePage = () => {
     useEffect(() => { 
         (async () => { 
             try {
-                const data = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=34dd105e2c4c4cf2b69154421240903&q=${search}&days=7`)
+                const data = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=34dd105e2c4c4cf2b69154421240903&q=${search}&days=7`)
                // console.log(data.data)
                 setData(data.data)
             } catch (error) {
