@@ -115,6 +115,7 @@ background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0
   justify-content: space-around;
   margin: 0px 6px;
   margin-top: -25px;
+  flex-wrap:nowrap;
 }
 
 .daysCols{

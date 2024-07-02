@@ -22,7 +22,7 @@ const HomePage = () => {
                // console.log(data.data)
                 setData(data.data)
             } catch (error) {
-                console.log(error)
+              //  console.log(error)
             }
         })()
     }, [search])
