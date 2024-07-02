@@ -12,6 +12,8 @@ const WeatherChart = ({ data }) => {
   const date = data.current.last_updated.split(' ')
   // console.log(date[0])
   const lastUpdatedtime = date[1]
+  const hours = lastUpdatedtime.split(":")
+  // console.log(hours[0])
   // const dateConst = new Date(date)
   // let day = weekday[dateConst.getDay()];
  // console.log(day)  
@@ -43,7 +45,7 @@ const WeatherChart = ({ data }) => {
         <hr />
         <div className={styles.parts}>
           <p>Recent Weather update</p>
-          <p>{ lastUpdatedtime} {lastUpdatedtime > 12 ? "Pm" : "Am"}</p>
+          <p>{ lastUpdatedtime} {hours[0] <= 12 ? "Am" : "Pm"}</p>
         </div>
         <button onClick={handleChange} className={styles.changeLocationBtn}>
           <img src={location} alt="location" />Change Location</button>
