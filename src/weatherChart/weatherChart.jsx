@@ -1,4 +1,4 @@
-import {React , useState , useEffect} from 'react'
+import {React , useState } from 'react'
 import styles from "./weatherChart.module.css"
 import location from "../assests/map.svg"
 import HomePage from '../homepage/homepage'
@@ -6,7 +6,7 @@ import logo from "../assests/logo.svg"
 
 const WeatherChart = ({ data }) => {
   const [backToHome,setBackToHome] = useState(null)
-  console.log(data)
+ // console.log(data)
   // const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
   const date = data.current.last_updated.split(' ')
