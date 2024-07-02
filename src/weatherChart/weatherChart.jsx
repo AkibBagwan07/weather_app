@@ -30,7 +30,7 @@ const WeatherChart = ({ data }) => {
     <div>
       <div className={styles.hero}></div>
       <div>
-                    <img className={styles.logo} src={logo} alt="logo" />
+                    <img onClick={handleChange} className={styles.logo} src={logo} alt="logo" />
                 </div>
       <div className={styles.DataLayoutRight}>
         <div className={styles.parts}>
